@@ -1,14 +1,10 @@
 # Ease Entertainment
 ## Summary
 ###### Functionality 1
-The given project will save the community from all the spoilers of their favourite tv series hovering around and to recommend top five movies according to their genre. The main aim of the project is to send an email to the user that contains the information about the Air Date of episode of the TV series a user likes ( air date = Date on which the episode will be broadcasted). 
+The given project will save the community from all the spoilers of their favourite tv series hovering around . The main aim of the project is to send an email to the user that contains the information about the Air Date of episode of the TV series a user likes ( air date = Date on which the episode will be broadcasted). 
 It enables user to register for themself.
 List of favourite TV Series is stored in the MySQL DataBase and mailed to all the registered user on their registered email address on demand.
-###### Functionality 2
-This will recommend movies on the basis of user choice of genre. It enables user to register for themself.
-Scrapped 10000 movie data from imdb and processed it to recommend movie to user.
-It enables user to register for themself.
-List of recommended movies mailed to  user on demand.
+
 
 ###### Tools and Technologies
 Language: Python
@@ -50,15 +46,13 @@ MysqlPassword="My password"
 Your Gmail should allow third party apps(Less secure apps) to send mails.
 
 Usage
-Run main.py in terminal and enter your choice of functions as per the instructions
+Run main1.py in terminal and enter your choice of functions as per the instructions
 For TV Series format to enter data:
 Enter user email address
-example: sample@gmail.com
+example: kungwanikomal8@gmail.com
 Enter tv series information requirement separating with comma
-example: Game of thrones, black mirror, da vinci demons, breaking bad
-For Movies format to enter data:
-Enter your genre list seperated with ","(comma)
-example: Sci-Fi,Horror
+example: friends,sacred games,The passage
+
 
 ## Screenshots
 ### TV Series
@@ -67,7 +61,7 @@ example: Sci-Fi,Horror
 ##### TV Series DataBase
 
 <p align="center">
-    <img src="https://github.com/Parulshandilya/Ease-Entertainment/blob/master/Images/TVSeriesDataBase.png" width="500" title="hover text">
+    <img src="https://github.com/komalkungwani/TV_series_update_system/images/1.png" width="500" title="hover text">
   </p>
 
 ##### Interface
