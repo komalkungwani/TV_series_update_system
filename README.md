@@ -61,7 +61,7 @@ example: friends,sacred games,The passage
 ##### TV Series DataBase
 
 <p align="center">
-    <img src="https://github.com/komalkungwani/TV_series_update_system/images/1.png" width="500" title="hover text">
+    <img src="https://github.com/komalkungwani/TV_series_update_system/blob/master/images/1.png" width="500" title="hover text">
   </p>
 
 ##### Interface
