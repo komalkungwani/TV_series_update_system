@@ -9,7 +9,9 @@ from email.mime.text import MIMEText
 import requests            #importing requests module
 from bs4 import BeautifulSoup   #importing beautiful soup as bs4
       #function which returns the string which will be mailed for every series
+from config import *
 mydb = mysql.connector
+
 base_link = 'https://www.imdb.com'           # base link of the site
 def result(xx):
   x=xx
@@ -130,13 +132,13 @@ def mailUsers():
 	mycursor.execute("SELECT Email,series FROM series_details")
 	mm={}
 	for x in mycursor:
-		username='sonakk2213@gmail.com'                          #this is the mail id from which mail will be send to all the users
-		password='Khudha2213'                                    #password of that mail id
+		username=Email                          #this is the mail id from which mail will be send to all the users
+		password=Password                              #password of that mail id
 		server=smtplib.SMTP('smtp.gmail.com:587')                #creating the server
 		server.ehlo()
 		server.starttls()
 		server.login(username,password)
-		sender='sonakk2213@gmail.com'
+		sender=Email
 		toadd=x[0]                                 #message format to be sent to the user email ids
 		msg = MIMEMultipart()                               
 		msg['From']=sender
@@ -187,9 +189,9 @@ def create_database():
 
 	try:                                          
 	  mydb = mysql.connector.connect(         #selecting database if already created
-	    host="localhost",
-	    user="root",
-	    password="Khudha2213",
+	    host=MysqlHost,
+	    user=MysqlUser,
+	    password=MysqlPassword,
 	    database="tv_series"
 	  )
 
@@ -197,9 +199,9 @@ def create_database():
 	except:
 
 	    mydb = mysql.connector.connect(           #creating database tv_series if not created
-	    host="localhost",
-	    user="root",
-	    password="Khudha2213"
+	    host=MysqlHost
+	    user=MysqlUser
+	    password=MysqlPassword
 	    )
 	mycursor = mydb.cursor()
 	mycursor.execute("CREATE DATABASE tv_series")    
