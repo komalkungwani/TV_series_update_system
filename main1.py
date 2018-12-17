@@ -199,8 +199,8 @@ def create_database():
 	except:
 
 	    mydb = mysql.connector.connect(           #creating database tv_series if not created
-	    host=MysqlHost
-	    user=MysqlUser
+	    host=MysqlHost,
+	    user=MysqlUser,
 	    password=MysqlPassword
 	    )
 	mycursor = mydb.cursor()
@@ -211,22 +211,20 @@ def create_database():
 
 	
 def del_users():
+	print(" DELETING DATABASE")
 	mycursor = mydb.cursor()
-	mycursor.execute("drop DATABASE tv_series")       
+	mycursor.execute("drop DATABASE tv_series;")       
 	
 
 
 try:                                          
-  mydb = mysql.connector.connect(         #selecting database if already created
-    host="localhost",
-    user="root",
-    password="Khudha2213",
-    
+  mydb = mysql.connector.connect(         
+    host=MysqlHost,
+	    user=MysqlUser,
+	    password=MysqlPassword
   )
-
-
 except:
-  System.out.println(" error in connecting to mysql")
+  print(" error in connecting to mysql")
 print("Enter you choice:")
 print("1. create database ")
 print("2. Register new User")

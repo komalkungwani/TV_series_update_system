@@ -1,7 +1,7 @@
 #mail
-Email = "Your_email"
-Password = "Your_email_Password"
+Email = "sonakk2213@gmail.com"
+Password = "Khudha2213"
 #Mysql
-MysqlHost="localhost" #host name
+MysqlHost="localhost"#host name
 MysqlUser="root" #MYSql user
-MysqlPassword="Your_Mysql_Password"
+MysqlPassword="Khudha2213"
