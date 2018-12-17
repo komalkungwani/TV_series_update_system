@@ -58,45 +58,45 @@ example: friends,sacred games,The passage
 ### TV Series
 
 
-##### TV Series DataBase
+##### Interface
 
 <p align="center">
     <img src="https://github.com/komalkungwani/TV_series_update_system/blob/master/images/1.png" width="500" title="hover text">
   </p>
 
-##### Interface
+##### create database tv_series and table series_detail
  <p align="center">
-  <img src="https://github.com/Parulshandilya/Ease-Entertainment/blob/master/Images/interface.png" width="500" title="hover text">
+  <img src="https://github.com/komalkungwani/TV_series_update_system/blob/master/images/12.png" width="500" title="hover text">
 </p>
 
-### Movies
 
-##### Scraped Data Txt Files
+
+##### register user
  <p align="center">
-  <img src="https://github.com/Parulshandilya/Ease-Entertainment/blob/master/Images/ScrapedDataTxt.png" width="500" title="hover text">
+  <img src="https://github.com/komalkungwani/TV_series_update_system/blob/master/images/13.png" width="500" title="hover text">
 </p>
  
 
 
-##### dataInCSV
+##### email send with 3rd option
 
 <p align="center">
-  <img src="https://github.com/Parulshandilya/Ease-Entertainment/blob/master/Images/dataInCSV.png" width="500" title="hover text">
+  <img src="https://github.com/komalkungwani/TV_series_update_system/blob/master/images/14.png" width="500" title="hover text">
 </p>
  
  
  
-###### Movie Recommendation
+###### received emails 
  <p align="center">
-  <img src="https://github.com/Parulshandilya/Ease-Entertainment/blob/master/Images/movieRecommendation.jpg" width="500" title="hover text">
-</p>
-
-##### Recommended Movies
- <p align="center">
-  <img src="https://github.com/Parulshandilya/Ease-Entertainment/blob/master/Images/recommendedMovie.png" width="500" title="hover text">
+  <img src="https://github.com/komalkungwani/TV_series_update_system/blob/master/images/15.png" width="500" title="hover text">
 </p>
 
-##### Scrapped Txt File
+##### received emails 
  <p align="center">
-  <img src="https://github.com/Parulshandilya/Ease-Entertainment/blob/master/Images/scrappedTxtFile.png" width="500" title="hover text">
+  <img src="https://github.com/komalkungwani/TV_series_update_system/blob/master/images/16.png" width="500" title="hover text">
+</p>
+
+##### received emails 
+ <p align="center">
+  <img src="https://github.com/komalkungwani/TV_series_update_system/blob/master/images/17.png" width="500" title="hover text">
 </p>
